@@ -2,9 +2,11 @@
   <div class="container">
     <div>
       <h1 class="title">
-        Download Ubuntu 18.04 LTS and other versions
+        Download Ubuntu 20.04 LTS and other versions
       </h1>
       <div>LTS means long term support. Downloading LTS versions is mostly recomended.</div> 
+      <h2 class="subtitle">Ubuntu 20.04 LTS Daily Build (Alpha/Beta):</h2>
+      <p><b>Download Ubuntu 20.04 LTS (Focal Fossa) Daily Build:</b> downloads are currently available from <a href="#" data-href="http://cdimage.ubuntu.com/daily-live/pending/" v-on:click="op">official Ubuntu website</a>.</p>
       <h2 class="subtitle">xUbuntu 18.04 LTS <span class="authors">Authors choose</span></h2>
       <p><b>xUbuntu</b> is official Ubuntu release with light weight XFCE interface in the box. Excellent for low performance machines (Laptop with Intel Atom, 1 Gb RAM for example).</p>
       <div><b>Download xUbuntu 18.04 LTS torrent:</b> <a href="/torrents/xubuntu-18.04.3-desktop-amd64.iso.torrent">xubuntu-18.04.3-desktop-amd64.iso.torrent</a></div>
@@ -34,7 +36,7 @@
       <div><b>Download xUbuntu 20.04 LTS torrent:</b> comming soon</div>
       <h2 class="subtitle">Ubuntu 20.04 Beta/Alpha</h2>
       <p>Alpha version will be publish in few weeks after 19.10 release.</p>
-      <div><b>Download xUbuntu 20.04 LTS Alpha/Beta torrent:</b> as soon as possible</div>
+      <div><b>Download Ubuntu 20.04 LTS Alpha/Beta torrent:</b> as soon as possible</div>
     </div>
   </div>
 </template>
@@ -48,6 +50,11 @@ export default {
   },
   head: {
     title: 'Download Ubuntu 20.04 | ubuntu.space'
+  },
+  methods: {
+      op(op) {
+      window.open(op.target.dataset.href);
+    }
   }
 }
 </script>

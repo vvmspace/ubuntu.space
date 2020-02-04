@@ -9,18 +9,6 @@
         Ubuntu.space is under construction
       </h2>
       <p class="description">Site is not official and powered by Node.js developer and Ubuntu user since 2009.</p>
-      <div class="links">
-        <a
-          href="/downloads"
-          class="button--green"
-        >Downloads</a>
-        <a
-          href="https://github.com/vvmspace/ubuntu.space"
-          target="_blank"
-          rel="nofollow"
-          class="button--grey"
-        >GitHub</a>
-      </div>
     </div>
   </div>
 </template>
@@ -41,7 +29,6 @@ export default {
 <style>
 .container {
   margin: 0 auto;
-  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;

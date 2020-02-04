@@ -13,8 +13,10 @@
           <b-nav-item href="/how-to">How to</b-nav-item>
           <b-nav-item href="/about">About</b-nav-item>
           <b-nav-item href="/links">Links</b-nav-item>
+          <b-nav-item title="20 лет Касте - презентация нового альбома, купить билеты на концерты Касты 2020 без наценки" target="_blank" href="https://kasta20.ru">Каста 20</b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
+          <b-nav-item href="https://listenradio.online">Radio</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -28,7 +30,7 @@
 </div>
 </template>
 
-<style>
+<style lang="scss">
 
 
 .screen {
@@ -103,5 +105,11 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+.template {
+  .bg-info {
+    background-color: #448b00 !important;
+  }
+
 }
 </style>
