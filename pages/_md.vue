@@ -18,9 +18,8 @@ export default {
       const fileContent = await import(`~/md/${params.md}.md`);
       const attr = fileContent.attributes;
       const title = getTitle(fileContent.default);
-      console.log(title);
+      // console.log(title);
       return {text: fileContent.default, title: title || params.md.replace('-', ' ')};
-      console.log(fileContent);
     }catch(e) {
       console.log(e);
       redirect('/');
